@@ -1,0 +1,67 @@
+# Ignore credentials 
+credentials.txt 
+.env
+
+### Ignore Maven target directory
+target/
+*.jar
+*.war
+*.ear
+
+### Ignore Gradle cache and build directories
+.gradle/
+build/
+
+### Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+### Ignore VS Code settings
+.vscode/
+
+### Ignore Eclipse project files
+.project
+.classpath
+.settings/
+.factorypath
+
+### Ignore MacOS & Linux system files
+.DS_Store
+Thumbs.db
+
+### Ignore sensitive configuration files (do not commit credentials)
+.env
+application.properties
+application.yml
+config/
+
+### Ignore Logs & temp files
+logs/
+*.log
+hs_err_pid*
+!src/main/resources/logback.xml
+
+### Ignore Lombok-generated files
+*.lombok
+
+### Ignore Docker files
+docker-compose.override.yml
+
+### Ignore Node.js dependencies (if frontend included)
+node_modules/
+
+### Ignore Git hooks
+.husky/
+
+### Ignore Java 
+# collection_add_image.java
+# collection_add_image.class
+# collection_search_face.java
+# collection_search_face.class
+# face_rekognition.java
+# face_rekognition.class
+ThirdEye_FaceMatch/src/main/java/com/mycompany/thirdeye_facematch/collection_add_image.java
+ThirdEye_FaceMatch/src/main/java/com/mycompany/thirdeye_facematch/collection_search_face.java
+ThirdEye_FaceMatch/src/main/java/com/mycompany/thirdeye_facematch/face_rekognition.java
+ThirdEye_FaceMatch/target/classes/com/mycompany/thirdeye_facematch/collection_add_image.class
+ThirdEye_FaceMatch/target/classes/com/mycompany/thirdeye_facematch/face_rekognition.class
